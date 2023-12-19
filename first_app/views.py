@@ -5,6 +5,7 @@ def appHome (request) :
     return render (request, 'appHome/appHome.html')
 
 def home (request) :
+
     return render (request, 'home/home.html')
 
 def about (request) :
